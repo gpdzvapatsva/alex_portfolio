@@ -1,0 +1,19 @@
+# Ignore image
+clenched.jpg
+Fist.png
+fist.jpg
+sill.webp
+test.png
+testii.jpg
+Web design.jpg
+img.jpg
+
+# Ignore an HTML file
+test.html
+
+# Ignore a CSS file
+test.css
+
+
+# Ignore a todo.txt file
+todo.txt

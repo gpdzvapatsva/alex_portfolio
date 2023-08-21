@@ -1,0 +1,236 @@
+*{
+    margin: 0%;
+    padding: 0%; 
+    background-color: rgb(170, 168, 169);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.def{
+    float: left;
+    margin: 10px;
+    margin-top: 25px;
+    padding: 8px;
+    width: auto;
+    background-image: url("logo.png");
+    background-position: center center;
+    border: solid 1px black;
+    font-weight: bolder;
+    font-size: large;
+    border-radius: 50px;
+    margin-left: 30px;  
+}
+
+.def:hover{
+    background-color: aliceblue;
+    border: 1px aliceblue;
+}
+
+.def a:hover{
+    background-color: aliceblue ;
+    color: black;  
+}
+
+
+.clr{
+    clear: both;
+}
+ul{
+    padding: 0%;
+    list-style: none;
+    color: black;   
+
+}
+
+li{
+    padding: 10px;
+    list-style: none;
+    display: inline;
+    color: black;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: white;
+}
+
+a:active{
+    color:rgb(170, 168, 169);
+}
+
+.copyright p{
+    margin-top: 50px;
+    padding-top: 50px;
+    height: 60px;
+    color: white;
+    text-align: center;
+    background-color: black;
+    font-size: 17px;
+}
+
+
+
+.float1{
+    margin-right: 1%;
+    margin-top: 2%;
+    float: right;   
+    box-sizing: border-box; 
+}
+
+h1{
+    color: white;
+    font-size: 65px;
+    margin-left:auto ;
+    margin-right: auto;
+    padding-top: 2%;
+    width: 40%;
+    margin-bottom: 50px;
+    position: relative;
+    animation: heading;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes heading {
+    0%{left: -1000px;}
+    100%{left: 25px;}
+}
+
+.quad1{
+    float: left;
+    width: 45%;
+    height: 33.3%;
+    padding: 10px;
+    /* border: 1px solid; */
+    text-align: center;
+    margin-left: 35px;
+    margin-bottom: 25px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    animation-fill-mode: forwards;
+   transition-property: transform;
+   transition-duration: 1s;
+}
+
+
+
+.quad1 h3{
+    background-color: aliceblue;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.quad1 p{
+    background-color: aliceblue;
+    line-height: 1.7em;
+}
+
+
+.quad2{
+    float: right;
+    width: 45%;
+    height: 33.3%;
+    padding: 10px;
+    /* border: 1px solid; */
+    text-align: center;
+    margin-bottom: 25px;
+    margin-right: 35px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    transition-property: transform;
+   transition-duration: 1s;
+}
+
+
+.quad2 h3{
+    background-color: aliceblue;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.quad2 p{
+    background-color: aliceblue;
+    line-height: 1.7em;
+
+}
+
+.quad3{
+    float: left;
+    width: 45%;
+    height: 33.3%;
+    padding: 10px;
+    /* border: 1px solid; */
+    text-align: center;
+    margin-left: 35px;
+    margin-bottom: 25px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    transition-property: transform;
+   transition-duration: 1s;
+}
+
+.quad3 h3{
+    background-color: aliceblue;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.quad3 p{
+    background-color: aliceblue;
+    line-height: 1.7em;
+    
+
+}
+
+.quad4{
+    float: right;
+    width: 45%;
+    height: 33.3%;
+    padding: 10px;
+    /* border: 1px solid; */
+    text-align: center;
+    margin-right: 35px;
+    margin-bottom: 25px;
+    background-color: aliceblue;
+    border-radius: 20px;
+
+}
+
+.quad4 h3{
+    background-color: aliceblue;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.quad4 p{
+    background-color: aliceblue;
+    line-height: 1.7em;
+
+}
+
+.subhead p{
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+
+.backgrd p{
+    padding: 15px;
+}
+
+img{
+    border-radius: 20px;
+    transition-property: transform;
+    transition-duration: 2s;
+}
+
+img:hover{
+    transform: rotateY(360deg);
+}
